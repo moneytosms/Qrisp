@@ -39,3 +39,7 @@ from qrisp.interface.simulators.qrisp_simulator_backend import (
 )
 
 def_backend = QrispSimulatorBackend()
+
+
+def _mypy_demo(x: int) -> int:
+    return x + "oops"
